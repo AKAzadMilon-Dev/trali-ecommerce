@@ -1,0 +1,204 @@
+/* Menubar style start */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.logo{
+    /* height: 53px; */
+    width: 150px;
+    border-radius: 0px;
+    /* padding: 5px 0; */
+
+}
+
+.rs-navbar:after, .rs-navbar:before {
+    display: none;
+}
+
+.rs-navbar-default {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    padding: 15px 0;
+}
+
+.rs-navbar-brand {
+    padding: 0px !important;
+    display: flex;
+    justify-content: start;
+}
+
+.rs-navbar-default{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.menu-item a{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    margin: 0 10px !important;
+}
+
+.menu-item a:hover{
+    background-color: transparent !important;
+    color: #05297f !important;
+    transition: .4s;
+}
+
+.menu-icon{
+    height: 22px;
+    top: 8px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.icon{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #05297f !important;
+    transition: .4s;
+}
+
+.round{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #05297f;
+    position: absolute;
+    top: 22px;
+    right: -9px;
+    font-size: 11px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Menubar style end */
+
+/* Banner Part Start */
+.rs-carousel-slider-after, .rs-carousel-slider-item {
+    background-color: transparent;
+}
+
+.rs-carousel{
+    height: auto;
+}
+
+.bannerImg{
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+.bannerContent{
+    width: 800px;
+}
+
+.bannerContent h4{
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #05297f;
+    line-height: 40px;
+}
+.bannerContent h1{
+    font-size: 65px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #252525;
+    line-height: 80px;
+}
+
+.bannerContent button{
+    margin-top: 30px;
+    background-color: #05297F;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.bannerContent button:hover{
+    background-color: #05297F;
+}
+
+.rs-carousel-label-wrapper input:checked~label {
+    background-color: #FC9D9D;
+}
+
+/* Banner Part End */
+
+/* Deal Part Start */
+.rs-grid-container {
+    width: 1320px;
+}
+
+.deal-part{
+    margin-top: 110px;
+}
+
+
+.dealBox{
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 142px 55px;
+}
+
+.dealContent{
+    width: 240px;
+}
+
+.dealContent button{
+    margin-top: 30px;
+    background-color: #FC9D9D;
+    border-radius: 50px;
+    color: #fff;
+}
+.deal-part .dealbtn1{
+    background: #05297F;
+}
+.deal-part .dealbtn1:hover{
+    background: #05297F;
+}
+
+.dealContent button:hover{
+    background-color: #FC9D9D;
+    color: #fff;
+}
+
+
+.dealContent h5{
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #05297f;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.dealContent h2{
+    font-size: 34px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #252525;
+    line-height: 42px;
+    margin-top: 16px;
+}
+/* Deal Part End */
