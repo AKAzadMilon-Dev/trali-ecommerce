@@ -6,9 +6,12 @@ const Deal = () => {
 
     const [deal, setDeal] = useState([])
 
-    useEffect(async()=>{
-        const data = await axios.get("http://localhost:8000/deal")
+    useEffect(()=>{
+        async function deal(){
+            const data = await axios.get("http://localhost:8000/deal")
         setDeal(data.data)
+        }
+        deal()
     },[])
 
   return (

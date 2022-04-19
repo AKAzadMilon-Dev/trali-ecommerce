@@ -6,10 +6,12 @@ const Banner = () => {
 
   const [banner, setBanner] = useState([])
 
-    useEffect(async()=>{
-      const data = await axios.get("http://localhost:8000/banner")
-      setBanner(data.data)
-
+    useEffect(()=>{
+      async function banner(){
+        const data = await axios.get("http://localhost:8000/banner")
+        setBanner(data.data)
+      }
+      banner()
     },[])
 
   return (

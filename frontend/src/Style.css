@@ -202,3 +202,63 @@
     margin-top: 16px;
 }
 /* Deal Part End */
+
+/* Product Part Start */
+
+.topproduct{
+    margin-top: 110px;
+}
+
+.topproduct h2{
+    font-size: 54px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.topproduct ul{
+    list-style: none;
+    text-align: right;
+}
+
+.topproduct ul li{
+    display: inline-block;
+    margin: 15px 0 0 35px;
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    color: #252525;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.topproduct ul li span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #FC9D9D;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: -8px;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+.topproduct ul li:first-child:hover span{
+    width: 150%;
+}
+
+.topproduct ul li:hover span{
+    width: 115%;
+    border-radius: 5px;
+}
+
+.rs-col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Product Part End */

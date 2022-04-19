@@ -9,9 +9,12 @@ const Menu = () => {
   
   const [logo, setLogo] = useState({})
 
-    useEffect(async()=>{
-      const data = await axios.get("http://localhost:8000/logo")
+    useEffect(()=>{
+      async function menu(){
+        const data = await axios.get("http://localhost:8000/logo")
       setLogo(data.data.img)
+      }
+      menu()
     },[])
 
   return (

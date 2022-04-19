@@ -4,6 +4,7 @@ var cors = require('cors')
 const bannerData = require('./bannerData')
 const logoData = require('./logoData')
 const dealData = require('./dealData')
+const productData = require('./productData')
 
 
 app.use(cors())
@@ -21,6 +22,9 @@ app.get('/logo', function(req,res){
 })
 app.get('/deal', function(req,res){
     res.send(dealData)
+})
+app.get('/product', function(req,res){
+    res.send(productData)
 })
 
 app.listen(8000,()=>{
